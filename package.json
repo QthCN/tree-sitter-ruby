@@ -2,7 +2,7 @@
   "name": "tree-sitter-ruby",
   "version": "0.17.0",
   "description": "Ruby grammar for tree-sitter",
-  "main": "index.js",
+  "main": "bindings/node",
   "keywords": [
     "parser",
     "lexer"
@@ -15,7 +15,7 @@
   },
   "devDependencies": {
     "prebuild": "^10.0.1",
-    "tree-sitter-cli": "^0.17.3"
+    "tree-sitter-cli": "^0.19.4"
   },
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
